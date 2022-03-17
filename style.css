@@ -1,0 +1,334 @@
+/* font-family: 'Playball', cursif;*/
+/*background-color: #eea8b2*/
+/*color: pink;
+
+/* RESET CSS */
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(/image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Playball', cursif;
+    background-color: black;
+  }
+
+.center{
+    text-align: center;
+}
+.text{
+    text-indent: 15px;
+    text-align: justify;
+    padding: 15px;
+}
+.bolder{
+    font-weight: bolder ;
+}
+.color-pink{
+    color: #eea8b2;
+}
+.underline{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+a{
+    color: #eea8b2;
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+    border: none;
+}
+a:hover{
+    color: #eea8b2;
+    text-decoration: none;
+    
+}
+strong{
+    font-weight: normal;
+}
+
+
+/* HEADER*/
+header{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: black;
+ border-bottom: #eea8b2 solid 1px;
+}
+h1{
+    letter-spacing: 3px; 
+    color: #eea8b2;
+}
+
+/* FIN HEADER */
+
+/* slogan */
+.box{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+.slogan{
+    box-shadow: 2px 2px 50px #eea8b2;
+    text-shadow: 2px 2px 20px #eea8b2;
+    border-bottom: solid  #eea8b2 1px;
+    position: absolute;
+    top: 10px;
+    padding: 10px ;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+
+
+/* slogan */
+
+/* DEBUT MAIN */
+.sousTitle{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 10px black ;
+}
+.sectionCard{
+    display: flex;
+    margin-top: 30px;
+}
+.imgRight{
+    width: 150px;
+    height: 150px;
+    float: right;
+    border-radius: 30%;
+    margin-left: 10px;
+}
+.cardLeft{
+    height: 150px;
+    text-align: center;
+}
+.imgLeft{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 30%;
+    margin-right: 10px;
+}
+.cardRight{
+    height: 150px;
+    text-align: center;
+}
+.taille{
+    margin-top: 15px;
+}
+/* ASIDE*/
+.etape{
+    margin: 20px 0;
+}
+.separator2{
+    height: 2px;
+    width: 50%;
+    border: none;
+    background: #eea8b2;
+    margin: auto;
+}
+/* FIN ASIDE */
+/* Les cards page A-propos + contact*/
+main a{
+    color: white;
+}
+.card{
+    background-color: transparent;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 20px;
+    
+}
+.imgCard{  
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    
+}
+.fa:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.reseau{
+    color: white;
+}
+.reseau2{
+    color: #eea8b2;
+}
+.reseau:hover{
+    color: #eea8b2;
+    font-weight: 600;
+}
+/* La Galerie*/
+.titleGalerie{
+    margin-top: 10px;
+}
+.galerie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 20px auto 0;
+    margin-bottom: 10px;
+}
+.items img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5%;
+}
+.items{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* FIN Galerie */
+
+/* DEBUT DU FOOTER*/
+footer{
+    background-color: black;
+    border-top: #eea8b2 solid 1px;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.reseauSociaux{
+    display: flex;
+    justify-content: center;
+}
+.separator{
+    margin-top: 10px;
+    height: 1px;
+    width: 20%;
+    border: none;
+    background: #eea8b2;
+    margin: auto;
+}
+.copyright{
+    font-size: 0.6em;
+    padding: 5px;
+    margin: 0;
+}
+.footerContact{
+    position: absolute;
+    bottom: 0;
+}
+
+    
+
+/* FIN DU FOOTER*/
+
+
+
+
+/********MEDIA QUERY POUR ECRAN 425PX  ***********
+******min-width 425px**************/
+@media screen and (min-width: 425px){
+    .cardLeft, .cardRight{
+      margin-top: 5px;
+      font-size: 1.2em;
+    }
+    .taille{
+        font-size: 1em;
+    }
+  }
+
+/********MEDIA QUERY POUR ECRAN 575PX  ***********
+******min-width 575px**************/
+@media screen and (min-width: 575px){
+    .cardLeft, .cardRight{
+        padding-top: 20px;
+    }
+    .slogan{
+        margin-top: 20px;
+        font-size: 1.7em;
+    }
+    .sousTitle{
+        margin-bottom: 20px;
+    }
+  }
+/********MEDIA QUERY POUR ECRAN 650PX  ***********
+******min-width 650px**************/
+@media screen and (min-width: 650px){
+    h1{
+        letter-spacing: 5px;
+        font-size: 3em;
+    }
+    .cardLeft, .cardRight{
+        font-size: 1.3em;
+    }
+    .taille{
+        font-size: 1.2em;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
+
+/********MEDIA QUERY POUR ECRAN 960PX  ***********
+******min-width 960px**************/
+@media screen and (min-width: 960px){
+    .cardLeft, .cardRight{
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header nav ul{
+        margin-left: 50px;
+    }
+    header nav li{
+        padding: 10px;
+    }
+
+}
+
+/********MEDIA QUERY POUR ECRAN 1200PX  ***********
+******min-width 1200px**************/
+@media screen and (min-width: 1200px){
+    .cardLeft, .cardRight{
+        font-size: 1.4em;
+    }
+
+
+}
+/********MEDIA QUERY POUR ECRAN 1300PX  ***********
+******min-width 1300px**************/
+@media screen and (min-width: 1300px){
+    .cardLeft, .cardRight{
+        font-size: 1.5em;
+        padding-right: 20px;
+    }
+    .taille{
+        font-size: 1.3em;
+    }
+    h1{
+        font-size: 3.4em;
+    }
+    .slogan{
+        font-size: 2em;
+    }
+
+}
