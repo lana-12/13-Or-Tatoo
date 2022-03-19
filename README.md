@@ -1,14 +1,15 @@
 Début du projet
 
-Nom du mon site vitrine : 13'Or Tatoo
+Nom du mon site vitrine : 13'Or Tattoo
 Sitre vitrine, uniquement HTML et CSS
 Nom du projet sur github: tatouage
 Par: Virginie Giacometti
 Description de l'auteur:
-actuellement en formation, j'ai réaliser ce site entièrement en html et css avec le framework bootstrap. Je suis qu'au début de ma formation(6mois). Je l'ai fait gratuitement pour pratiquer. Il n'est pas parfait mais il est responsive. Les photos ne sont de tres bonne qualitée alors j'ai du m'adapter.
+actuellement en formation, j'ai réaliser ce site entièrement en html et css avec le framework bootstrap. Je suis qu'au début de ma formation(6mois). Je l'ai fait gratuitement pour pratiquer. Il n'est pas parfait mais il est responsive. Les photos ne sont de tres bonne qualitée alors j'ai du m'adapter comme j'ai pu avec les connaissances déjà acquises.
 
-Description de l assocaiation:
+Description du salon de tatouage:
 salon privé exclusivement féminin de Tatouage
+
 Technologies utilisées:
 La réalisation de l'interface est pensé Mobile frist. J'ai utilisé le framework Bootstrap avec quelques médias queries. J'ai utilisé bootstrap en local :
 
