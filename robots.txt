@@ -5,4 +5,5 @@ User-agent: *
 Dissallow: /
 Allow: /
 
-# Sitemap : mettre l'adresse du site en ligne 
+# Sitemap : https://13-or-tattoo.netlify.app/sitemap.xml 
+

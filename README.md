@@ -35,6 +35,7 @@ Organisation du répertoire:
   img/
   REDAME.md
   robots.txt
+  sitemap
 
 
 Dépot sur Github

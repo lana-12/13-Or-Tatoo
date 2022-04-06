@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://13-or-tattoo.netlify.app/</title>
+  <link>https://13-or-tattoo.netlify.app/</link>
+
+<item>
+     <link>https://13-or-tattoo.netlify.app/</link>
+     <title>13'Or Tattoo</title>
+     <description>13'Or Tattoo à St Brès est un salon de Tatouage privé et féminin. Laura vous accueille uniquement sur RDV, Contactez-la ! </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://13-or-tattoo.netlify.app/index.html</link>
+     <title>13'Or Tattoo</title>
+     <description>13'Or Tattoo à St Brès est un salon de Tatouage privé et féminin. Laura vous accueille uniquement sur RDV, Contactez-la ! </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://13-or-tattoo.netlify.app/galerie.html</link>
+     <title>Galerie</title>
+     <description>Galerie de photos de mes réalisations + Tatouage en noir et blanc exclusivement + encre Végan </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://13-or-tattoo.netlify.app/a-propos.html</link>
+     <title>Tout savoir sur Laura Boiron</title>
+     <description>Laura Boiron 6 ans d'expèriences + Tatoueuse et dessinatrice + Déco très girly </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://13-or-tattoo.netlify.app/contact.html</link>
+     <title>Contact-13'or Tattoo</title>
+     <description>Page de contact + Salon de Tatouage sur St Brès + Laura boiron Tatoueuse + 07 80 40 43 05 </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
