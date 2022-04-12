@@ -13,16 +13,16 @@
 }
 body{
     height: 100%;
-    width: 100%;
+    width: 100vw;
     color: white;
     background: rgb(18,1,8);
     background: radial-gradient(circle, rgba(18,1,8,1) 66%, rgba(240,163,175,1) 88%);
     /*Premiere idée mais je ni suis pas arrivé
-     background-image: url(/image/background.jpg);
+    background-image: url(/image/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain; */
-  }
+}
 .center{
     text-align: center;
 }
