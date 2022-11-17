@@ -1,18 +1,20 @@
-Début du projet
+# 13'Or TATOO  - [Site](https://13-or-tattoo.netlify.app/)
+Salon privé de Tatouage - exclusivement féminin 
 
-Nom du mon site vitrine : 13'Or Tattoo
-Sitre vitrine, uniquement HTML et CSS
-Nom du projet sur github: tatouage
-Par: Virginie Giacometti
-Description de l'auteur:
-actuellement en formation, j'ai réaliser ce site entièrement en html et css avec le framework bootstrap. Je suis qu'au début de ma formation(6mois). Je l'ai fait gratuitement pour pratiquer. Il n'est pas parfait mais il est responsive. Les photos ne sont de tres bonne qualitée alors j'ai du m'adapter comme j'ai pu avec les connaissances déjà acquises.
+## description
++ Nom du mon site vitrine : 13'Or Tattoo
++ Nom du dépôt github : [13-or-tatoo](https://github.com/lana-12/13-Or-Tattoo)
++ Par: Virginie Giacometti
 
-Description du salon de tatouage:
-salon privé exclusivement féminin de Tatouage
+Actuellement en formation de développeur Web, Web mobile, j'ai eu l'occassion de réaliser ce site pour une connaissance.
 
-Technologies utilisées:
+C'est mon premier vrai projet. Il a été réalisé en HTML, CSS et Bootstrap uniquement. Il m'a permis de mettre en pratique tout ce que j'avais appris depuis le début de ma formation. Entièrement responsive grâce aux mediaQuery et Bootstrap, les photos ne sont de très bonne qualitée.
+
+
+### Technologies utilisées:
 La réalisation de l'interface est pensé Mobile frist. J'ai utilisé le framework Bootstrap avec quelques médias queries. J'ai utilisé bootstrap en local :
 
+```
 <link href="bootstrap.min.css" rel="stylesheet">
   
 <script src="jquery-3.6.0.min.js"></script>
@@ -24,39 +26,34 @@ La réalisation de l'interface est pensé Mobile frist. J'ai utilisé le framewo
 <link rel="icon" type="image/png" href="favicon.png">
 
 <script src="https://use.fontawesome.com/4c7b786387.js"></script>
+```
+
+### Organisation du répertoire:
+  + index.html
+  + galerie.html
+  + a-propos.html
+  + contact.html
+  + style.css
+  + img/
 
 
-Organisation du répertoire:
-  index.html
-  galerie.html
-  a-propos.html
-  contact.html
-  style.css
-  img/
-  REDAME.md
-  robots.txt
-  sitemap
+### Ressources utilisées
+  - MDN
+  - Documentation bootstrap
+  - W3schools
+  - Google
+  - [Icone](https://fontawesome.com/icons)
+  - You tube - le web designer, french codeur
+  - Visual studio code
+  - Github
 
 
-Dépot sur Github
-Création du repository sur Github:
+### Pour les images
+- Redimensionner les images - [hipf](https://www.hipdf.com/fr/redimensionner-image#google_vignette)
+- Compresser les images - [tinypng](https://tinypng.com/)
+-
+  
 
-
-Ressources utilisées pour la réalisation de site
-  -les cours sur Studi: html, css et bootstrap
-  -google
-  -You tube - le web designer, french codeur
-  -la documentation bootstrap
-  -Visual studio code
-  -Github
-
-
-Pour les images
-  -https://www.hipdf.com/fr/redimensionner-image#google_vignette - redimensionner les images.
-  -https://tinypng.com/  - compression d image
-  -Utilisation des images libre de droit - background
-  -https://fontawesome.com/icons - icone
-
-Pour valider mon code:
-  htmllint  
-  validator.w3.org pour le html et le css => ok
+### Pour valider mon code:
+  - htmllint  
+  - validator.w3.org pour le html et le css
