@@ -56,12 +56,12 @@ strong{
 
 /* HEADER*/
 header{
- display: flex;
- justify-content: space-around;
- align-items: center;
- background-color: #840A51;
- border-bottom: black solid 2px;
- font-family: 'Birthstone', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #840A51;
+    border-bottom: black solid 2px;
+    font-family: 'Birthstone', cursive;
 }
 h1{
     letter-spacing: 2px; 
@@ -114,7 +114,6 @@ button{
     text-shadow: 1px 1px 10px black ;
     font-family: 'Pinyon Script', cursive;
     font-size: 2em; 
-     
 }
 .sectionCard{
     display: flex;
@@ -299,13 +298,13 @@ footer{
 ******min-width 425px**************/
 @media screen and (min-width: 425px){
     .cardLeft, .cardRight{
-      margin-top: 5px;
-      font-size: 1.2em;
+        margin-top: 5px;
+        font-size: 1.2em;
     }
     .taille{
         font-size: 1em;
     }
-  }
+}
 
 /********MEDIA QUERY POUR ECRAN 575PX  ***********
 ******min-width 575px**************/
@@ -320,7 +319,7 @@ footer{
     .sousTitle{
         margin-bottom: 20px;
     }
-  }
+}
 /********MEDIA QUERY POUR ECRAN 650PX  ***********
 ******min-width 650px**************/
 @media screen and (min-width: 650px){
@@ -338,7 +337,7 @@ footer{
         display: flex;
         justify-content: space-evenly;
     }
-  }
+}
 
 
 /********MEDIA QUERY POUR ECRAN 960PX  ***********
